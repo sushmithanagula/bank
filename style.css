@@ -1,3 +1,182 @@
-.header {
-    background-color: silver;
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f0f0f0; /* Light Gray Background */
+    color: #333; /* Dark Gray Text */
 }
+
+/* Header */
+header {
+    background: linear-gradient(to right, #606870, #47a4c3); /* Deep Blue */
+    color: #ffffff; /* White */
+    padding: 10px; /* Reduced padding */
+    font-size: 16px; /* Smaller Header Text */
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Box */
+#root {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff; /* White Background */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(192, 192, 192, 0.5); /* Soft Silver Shadow */
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, #606870, #3e7587); /* Deep Blue */
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button.primary {
+    background: #4CAF50; /* Green */
+    color: white;
+}
+
+button.primary:hover {
+    background: #3e8e41;
+}
+
+button.secondary {
+    background: #03A9F4; /* Blue */
+    color: white;
+}
+
+button.secondary:hover {
+    background: #0288d1;
+}
+
+button.danger {
+    background: #FF9800; /* Orange */
+    color: white;
+}
+
+button.danger:hover {
+    background: #e68a00;
+}
+
+/* Inputs & Dropdowns */
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #f1f2f6;
+}
+
+/* Bank Selection Cards */
+.bank-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bank-card {
+    background: #f7f7f7; /* Light Gray */
+    padding: 15px;
+    margin: 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgba(192, 192, 192, 0.5); /* Silver Shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bank-card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 12px rgba(192, 192, 192, 0.7);
+}
+
+.bank-card.selected {
+    background-color: #007bff; /* Deep Blue */
+    color: white;
+}
+
+/* Transaction History */
+.history-container {
+    text-align: left;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    background: #f9f9f9;
+    color: #333;
+    box-shadow: 2px 2px 8px rgba(192, 192, 192, 0.4);
+}
+
+.history-item {
+    font-size: 13px;
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.history-item:last-child {
+    border-bottom: none;
+}
+/* Main Content Box */
+#root {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff; /* White Background */
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced Box Shadow */
+    margin-top: 20px;
+}
+
+/* Bank Selection Cards */
+.bank-card {
+    background: #f7f7f7; /* Light Gray */
+    padding: 15px;
+    margin: 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgba(37, 30, 30, 0.5); /* Silver Shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bank-card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 12px rgba(192, 192, 192, 0.7);
+}
+.box {
+    background: linear-gradient(to right, #606870, #47a4c3);
+    box-shadow: 5px 5px 15px rgba(54, 69, 79, 0.5), 10px 10px 30px rgba(71, 164, 195, 0.3);
+}
+
+
